@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CollegeMarkSheet</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .college-logo {
+            width: 60px;
+            height: 60px;
+            float: left;
+        }
+
+        .student-photo {
+            width: 80px;
+            height: 100px;
+            float: right;
+            border: 1px solid #333;
+        }
+
+        .marksheet {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: rgba(145, 196, 235, 0.47);
+            border: 2px solid #333;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+
+        th,
+        td {
+            border: 1px solid #333;
+            padding: 5px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #0808086f;
+            font-weight: bold;
+        }
+
+        .grades-table th {
+            background-color: #0808086f;
+        }
+
+        .summary-section {
+            margin-top: 20px;
+        }
+
+        .signatures {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="marksheet">
+
+        <div class="header">
+            <img src="assets/CollegeLogo.png" alt="College-logo" class="college-logo">
+            <img src="assets/23vvvv.jpg" alt="Student Photo" class="student-photo">
+            <h2>FRANCIS XAVIER ENGINEERING COLLEGE</h2>
+            <h3>AN AUTONOMOUS INSTITUION</h3>
+                <p>Approved by AICTE,New Delhi & Afflicated to Anna University,Chennai<br>
+                    Recogonized under Section 2(f) & 12(B) of the Act,1956<br>
+                    VANNARPETTAI, TIRUNELVELI -627 003, TAMILNADU, INDIA.
+                </p>
+                <h3>M.C.A DEGREE EXAMINATIONS</h3>
+                <h2 style="color: red;">CONSOLIDATED STATEMENT OF GRADES</h2>
+                <h3 style="color: red;">CHOICE BASED CREDIT SYSTEM (CSBS)</h3>
+        </div>
+
+        <table>
+            <tr>
+                <th colspan="3">REGULATIONS</th>
+                <th>R2021</th>
+            </tr>
+            <tr>
+                <td><strong>NAME OF THE CANDIDATE</strong></td>
+                <td colspan="1">VELAYUTHAM G</td>
+                <td><strong>GENDER</strong></td>
+                <td>MALE</td>
+            </tr>
+            <tr>
+                <td><strong>REGISTER NO.</strong></td>
+                <td>95072252058</td>
+                <td colspan="1"><strong>DATE OF BIRTH</strong></td>
+                <td colspan="1">10-May-2002</td>
+            </tr>
+            <tr>
+                <td><strong>PROGRAMME & BRANCH</strong></td>
+                <td colspan="1">M.C.A. - Master of Computer Applications</td>
+                <td><strong>MONTH & YEAR OF LAST APPEARANCE</strong></td>
+                <td>Apr 2024</td>
+            </tr>
+        </table>
+
+
+        <table class="grades-table">
+            <thead>
+                <tr>
+                    <th>SEMESTER</th>
+                    <th>COURSE CODE</th>
+                    <th>COURSE TITLE</th>
+                    <th>CREDITS</th>
+                    <th>LETTER GRADE</th>
+                    <th>GRADE POINTS</th>
+                    <th>MONTH & YEAR OF PASSING</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>21CA1101</td>
+                    <td>Data Structures</td>
+                    <td>3</td>
+                    <td>B+</td>
+                    <td>7</td>
+                    <td>Nov 2022</td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>21CA1102</td>
+                    <td>Computer Networks</td>
+                    <td>3</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Nov 2022</td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>21CA1103</td>
+                    <td>Operating Systems</td>
+                    <td>3</td>
+                    <td>B+</td>
+                    <td>7</td>
+                    <td>Nov 2022</td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>21CA1104</td>
+                    <td>Object Oriented Analysis and Design</td>
+                    <td>3</td>
+                    <td>B+</td>
+                    <td>7</td>
+                    <td>Nov 2022</td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>21MA1258</td>
+                    <td>Mathematical Foundations of Computer Applications</td>
+                    <td>4</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Nov 2022</td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>21GA1105</td>
+                    <td>Web Front End Essentials</td>
+                    <td>4</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Nov 2022</td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>21GA1111</td>
+                    <td>Data Structures Laboratory</td>
+                    <td>2</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Nov 2022</td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>21GA1912</td>
+                    <td>Communication and Soft Skills Laboratory</td>
+                    <td>2</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Nov 2022</td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>21GA1M01</td>
+                    <td>PHP Programming</td>
+                    <td>1</td>
+                    <td>O</td>
+                    <td>10</td>
+                    <td>Nov 2022</td>
+                </tr>
+
+
+                <tr>
+                    <td>02</td>
+                    <td>21CA2912</td>
+                    <td>Technical Seminar and Report Writing</td>
+                    <td>1</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Apr 2023</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>21CA2N01</td>
+                    <td>Aptitude Skill Development</td>
+                    <td>0</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Apr 2023</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>21CA2101</td>
+                    <td>Programming with Java</td>
+                    <td>3</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Apr 2023</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>21CA2102</td>
+                    <td>Python Programming</td>
+                    <td>4</td>
+                    <td>B+</td>
+                    <td>7</td>
+                    <td>Apr 2023</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>21CA2103</td>
+                    <td>Advanced Databases and Data Mining</td>
+                    <td>3</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Apr 2023</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>21CA2105</td>
+                    <td>Fundamentals of Accounting</td>
+                    <td>4</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Apr 2023</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>21CA2201</td>
+                    <td>Cryptography and Network Security</td>
+                    <td>3</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Apr 2023</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>21CA2104</td>
+                    <td>Web Application Development Frameworks</td>
+                    <td>4</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Apr 2023</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>21CA2111</td>
+                    <td>Programming with Java Laboratory</td>
+                    <td>2</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Apr 2023</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>21CA2913</td>
+                    <td>Dot Net Programming</td>
+                    <td>1</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Nov 2023</td>
+                </tr>
+
+
+                <tr>
+                    <td>03</td>
+                    <td>21CA3M02</td>
+                    <td>Reasoning Skill Enhancement</td>
+                    <td>1</td>
+                    <td>A+</td>
+                    <td>9</td>
+                    <td>Nov 2023</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>21CA3V01</td>
+                    <td>Node.js and Express.js Essentials</td>
+                    <td>1</td>
+                    <td>B</td>
+                    <td>6</td>
+                    <td>Nov 2023</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>21CA3102</td>
+                    <td>Cross-Platform Mobile Development with React Native</td>
+                    <td>3</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Nov 2023</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>21CA3101</td>
+                    <td>Big Data Analytics</td>
+                    <td>3</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Nov 2023</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>21CA3102</td>
+                    <td>Mobile Computing</td>
+                    <td>3</td>
+                    <td>B+</td>
+                    <td>7</td>
+                    <td>Nov 2023</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>21CA3103</td>
+                    <td>Software Testing and Quality Assurance</td>
+                    <td>3</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Nov 2023</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>21CA3202</td>
+                    <td>Block Chain Technology and its Applications</td>
+                    <td>3</td>
+                    <td>B+</td>
+                    <td>7</td>
+                    <td>Nov 2023</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>21CA3209</td>
+                    <td>Game Design and Development</td>
+                    <td>3</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Nov 2023</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>21CA3104</td>
+                    <td>Internet of Things and Cloud Computing</td>
+                    <td>4</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Nov 2023</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>21CA3111</td>
+                    <td>Mobile App Development</td>
+                    <td>2</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Nov 2023</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>21CA3913</td>
+                    <td>Internet Marketing and Analytics</td>
+                    <td>2</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Nov 2023</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>21CA3912</td>
+                    <td>Mini Project</td>
+                    <td>2</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Nov 2023</td>
+                </tr>
+
+                <tr>
+                    <td>04</td>
+                    <td>21CA4911</td>
+                    <td>Project Work</td>
+                    <td>12</td>
+                    <td>A</td>
+                    <td>8</td>
+                    <td>Apr 2024</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div style="margin-top: 20px;">
+            <p><em>This document issued without any corrections</em></p>
+            <p><strong>Medium of Instruction: ENGLISH</strong></p>
+            <p>Tirunelveli - 627 003<br>
+                Date: 16-May-2024</p>
+        </div>
+        <div class="signatures">
+            <div style="text-align: center;">
+
+                <img src="assets/Signaturee.jpg" alt="Student Signature" style="height: 100px; width:200px; margin-bottom: 10px;">
+                <div style="height: 2px; border-bottom: 1px solid #333; width: 200px; margin: 0 auto;"></div>
+                <p><strong>SIGNATURE OF THE STUDENT</strong></p>
+            </div>
+            
+            <div style="text-align: center; position: relative;">
+
+                <img src="assets/LogoCollege.png" alt="College Stamp" 
+                     style="width: 100px; height: 100px; opacity: 0.8; margin-bottom: 10px;">
+                
+                <img src="assets/sign.png" alt="Controller Signature" style="height: 100px; width: auto; margin-bottom: 10px;">
+                <div style="height: 2px; border-bottom: 1px solid #333; width: 200px; margin: 0 auto;"></div>
+                <p><strong>CONTROLLER OF EXAMINATIONS</strong></p>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
